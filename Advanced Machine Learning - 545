@@ -1,0 +1,20 @@
+Advanced Machine Learning - 545
+
+Week 1
+----------
+Lab 0 - Personal Finance
+    Tool to use to find needed salaries for any input of expenses
+
+Week 2
+----------
+PA 1.1 - Bagging
+    See differences between decision trees, bagging decision trees, and random forests
+
+PA 1.2 - Stacking
+    Using multiple base models to create a stacking meta model and compare to single models
+
+Lab 1 - FitBit Sleep Score
+    Used techniques from PA to create best model to predict sleep score from FitBit data and plot results
+
+Week 3
+----------
