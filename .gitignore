@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# CSV files (optional)
+*.csv
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python Environments
+venv/
+.env/
+__pycache__/
