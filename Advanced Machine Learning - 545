@@ -1,0 +1,37 @@
+Advanced Machine Learning - 545
+
+Week 1
+----------
+Lab 0 - Personal Finance
+    Tool to use to find needed salaries for any input of expenses
+
+Week 2
+----------
+PA 1.1 - Bagging
+    See differences between decision trees, bagging decision trees, and random forests
+
+PA 1.2 - Stacking
+    Using multiple base models to create a stacking meta model and compare to single models
+
+Lab 1 - FitBit Sleep Score
+    Used techniques from PA to create best model to predict sleep score from FitBit data and plot results
+
+Week 3
+----------
+PA 2.1 - AdaBoosting
+    Used to classify penguins from Palamer dataset with a decision tree as the base estimator.
+
+PA 2.2 - XGBoost and Gradient Boosting
+    Similar process.
+
+Lab 2 - Boosting to identify risk of heart disease
+    Used all three methood and choose best model for this dataset and found important variables.
+
+Week 4
+----------
+PA 3.1 - Neural networks
+    Found a lot of troubles and had to do extra cleaning and tuning to improve results. Found that teh range of prices hurt the model when doing a nn.
+
+lab 3 - Using neural networks to predict binary categorical income levels
+    Clean process of how the model and interpret results for classification. 
+
