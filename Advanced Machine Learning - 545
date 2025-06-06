@@ -1,11 +1,15 @@
-Advanced Machine Learning - 545
+<u>Advanced Machine Learning - 545</u>
 
-Week 1
+----------------------------------------
+- Week 1
 ----------
 Lab 0 - Personal Finance
     Tool to use to find needed salaries for any input of expenses
+----------------------------------------
 
-Week 2
+
+----------------------------------------
+- Week 2
 ----------
 PA 1.1 - Bagging
     See differences between decision trees, bagging decision trees, and random forests
@@ -15,8 +19,11 @@ PA 1.2 - Stacking
 
 Lab 1 - FitBit Sleep Score
     Used techniques from PA to create best model to predict sleep score from FitBit data and plot results
+----------------------------------------
 
-Week 3
+
+----------------------------------------
+- Week 3
 ----------
 PA 2.1 - AdaBoosting
     Used to classify penguins from Palamer dataset with a decision tree as the base estimator.
@@ -26,12 +33,75 @@ PA 2.2 - XGBoost and Gradient Boosting
 
 Lab 2 - Boosting to identify risk of heart disease
     Used all three methood and choose best model for this dataset and found important variables.
+----------------------------------------
 
-Week 4
+
+----------------------------------------
+- Week 4
 ----------
 PA 3.1 - Neural networks
     Found a lot of troubles and had to do extra cleaning and tuning to improve results. Found that teh range of prices hurt the model when doing a nn.
 
 lab 3 - Using neural networks to predict binary categorical income levels
     Clean process of how the model and interpret results for classification. 
+----------------------------------------
 
+
+----------------------------------------
+- Week 5
+----------
+Midterm Project - Using ML tools to model airline satisfaction
+    Ran through an intensive tuning process to evaluate the best model for classifying airline satisfaction.
+
+Midterm ranking question
+    1. XGBoost - Looks to minimize loss function in decision trees through gradient descent. This is a powerful tool that is efficient, easy to use, easily tunable, and is accurate. Thus im ranking it one.
+    2. Neural Networks - A process in which the model continually adjusts formed connections between different inputs. I am putting this second because of the power it has on large complex datasets that the other approaches cannot handle. The only reason it is not first is because we are talking about only one layer of complexity. 
+    3. AdaBoost - Sequentially applies weak classification to continually modified data to get a strong prediction. Can be used in most modeling situation, including stacking and bagging so I am placing it ahead of those two.
+    4. Stacking - Incorporates qualities from many methods to create a combined prediction. Can be very powerful when the right base models are complex, allowing for specific qualities in the data to be mapped.
+    5. Bagging - Useful for decision trees since large trees have high variance, so bagging tree averages to reduce variance.
+    6. Random forest - Also useful for decision trees but particularly when there is one strong predictor. This is because will take a new sample of inputs each iteration and average at the end so the strong predictor is dampened. Ranking just below Bagging since is similar but for a particular use case.
+    7. Naive Bayes - Great for large complex data. However I am putting it last because of its struggles with independent features, which is how most datasets are structured.
+----------------------------------------
+
+
+----------------------------------------
+- - Week 6
+----------
+PA 4.1 - Keras
+    - Used keras neural networks to classify wine by nation of origin.
+
+Lab 4 - Diabetes Prediction using Keras
+    - Full data exploration.
+    - Explored several neural network architectures to find best model for classification.
+----------------------------------------
+
+
+----------------------------------------
+- Week 7
+----------
+PA 5.1 - Recurrent Neural Networks (RNN)
+    - Tunned RNN model to find best predicted sales data.
+
+Lab 5 - Using RNN to Predict Bitcoin Stock
+    - Tested simple RNN, LSTM, and GRU to predict.
+----------------------------------------
+
+
+----------------------------------------
+Week 8
+----------
+PA 6.1 - Convolutional Neural Network
+    - Tuning CNNs to classify hand written characters for text identification.
+
+Lab 6 - Differentiating Photographers based on Image Features
+    - Used CNNs for image classification.
+----------------------------------------
+
+
+----------------------------------------
+Week 9
+----------
+Final Project - Exploring Deep Learning
+    Function 1 - Demand Forecasting with ERP System
+    Function 2 - Anomaly Detection
+----------------------------------------
